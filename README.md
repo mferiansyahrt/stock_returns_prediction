@@ -1,10 +1,10 @@
 # stock_returns_prediction
 
-The dataset used comes from [starbuck_stocks]('https://raw.githubusercontent.com/lazyprogrammer/machine_learning_examples/master/tf2.0/sbux.csv')
+The dataset used comes from [starbuck_stocks](https://raw.githubusercontent.com/lazyprogrammer/machine_learning_examples/master/tf2.0/sbux.csv)
 
 <div align="center">
     <a href="./">
-        <img src="./figure/dataset_preview.png" width="60%"/>
+        <img src="./figure/dataset_preview.png" width="45%"/>
     </a>
 </div>
 
