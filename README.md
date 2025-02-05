@@ -37,7 +37,7 @@ Usually, when performing stock price prediction, we do not predict the stock pri
 Stock returns :
 
 <div align="center">
-<p>\( R = \frac{V_{\text{final}} - V_{\text{initial}}}{V_{\text{initial}}} \)</p>
+<p>( R = \frac{V_{\text{final}} - V_{\text{initial}}}{V_{\text{initial}}})</p>
 </div>
 
 
