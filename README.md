@@ -12,7 +12,7 @@ The dataset used comes from [starbuck_stocks](https://raw.githubusercontent.com/
 
 ## Directly Predict Stock Prediction (Predicting Stock Prices)
 
-When we directly predict stocks, we use the 'close' column as the value. The feature used on stock predictions are the first 10 timestamps data, while the target is the next data (eleventh data). However <b> this is a wrong approach on stock prediction </b>.
+When we directly predict stocks, we use the 'close' column as the value. The feature used on stock predictions are the first 10 timestamps data, while the target is the next data (eleventh data). However <b>this is a wrong approach on stock prediction</b>.
 
 The model used on stock prediction is LSTM with 5 hidden units, but it does not predict the subsequent values effectively using the existing training data. This is because the time series data in this case is highly correlated, meaning previous data is closely related to the following data. The analogy is similar to image pixels, where if one pixel is red, the adjacent pixel is likely to be red as well. Therefore, the time series prediction below results in the model merely copying the previous value (on multistep).
 
@@ -43,6 +43,20 @@ Hence, the column data is transformed as shown below
 <div align="center">
     <a href="./">
         <img src="./figure/dataset_return.png" width="60%"/>
+    </a>
+</div>
+
+As you can see below, when we take the right approach to stock prediction, we obtain a proper graph that outputs the stock return. In this project, the <b>one-step forecast</b> refers to using ten timestamps for an exact column to predict next value, while the <b>multi-step forecast</b> involves using the predicted value to forecast the next output.
+
+<div align="center">
+    <a href="./">
+        <img src="./figure/onestep_2.png" width="60%"/>
+    </a>
+</div>
+
+<div align="center">
+    <a href="./">
+        <img src="./figure/multistep_2.png" width="60%"/>
     </a>
 </div>
 
