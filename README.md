@@ -37,7 +37,8 @@ Usually, when performing stock price prediction, we do not predict the stock pri
 Stock returns :
 
 <div align="center">
-<p>( R = \frac{V_{\text{final}} - V_{\text{initial}}}{V_{\text{initial}}})</p>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </div>
 
 
