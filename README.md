@@ -38,6 +38,14 @@ Stock returns :
 
 $$ R = \frac{V_{\text{final}} - V_{\text{initial}}}{V_{\text{initial}}} $$
 
+Hence, the column data is transformed as shown below
+
+<div align="center">
+    <a href="./">
+        <img src="./figure/dataset_return.png" width="60%"/>
+    </a>
+</div>
+
 
 
 
